@@ -5,5 +5,6 @@ function addStudent(user, password) {
   if (user == "admin" && password == "123") {
     return true;
   }
-  return false;//dasdasdas
+  return false; //dasdasdas
 }
+//sdasad
