@@ -1,1 +1,2 @@
-"# Git GitHub Practice" 
+"# Git GitHub Practice"
+Author: Tran Quang Huy
