@@ -1,0 +1,19 @@
+name: Check Demo
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+jobs:
+  demo-check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Run demo check
+        run: |
+          echo "Running demo check..."
+          test -f OK.txt
