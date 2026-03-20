@@ -1,6 +1,6 @@
 function login(user) {
   if (!user) return null;
-  return user.name;
+  return user.email;
 }
 
-console.log(login({ name: "Huy" }));
+console.log(login({ email: "huy@gmail.com" }));
