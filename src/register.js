@@ -4,3 +4,9 @@ function register(user, password) {
   }
   return false; //them exception
 }
+function clear(user, password) {
+  if (user == "admin" && password == "123") {
+    return true;
+  }
+  return false; //them exception
+}
