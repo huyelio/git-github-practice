@@ -1,5 +1,5 @@
 function login(user) {
-  return user.name;
+  return user.email;
 }
 
-console.log(login({ name: "Huy" }));
+console.log(login({ email: "huy@gmail.com" }));
