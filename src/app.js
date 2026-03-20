@@ -1,4 +1,5 @@
 function login(user) {
+  if (!user) return null;
   return user.name;
 }
 
