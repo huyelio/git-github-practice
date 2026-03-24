@@ -4,3 +4,4 @@ function login(user) {
 }
 
 console.log(login({ name: "Huy" }));
+console.log()
